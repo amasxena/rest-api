@@ -14,7 +14,10 @@
 	<name>spring-boot-rest-controller-unit-test</name>
 	<description>Spring Boot test Rest Controller with @WebMvcTest</description>
 	<properties>
-		<java.version>17</java.version>
+		
+    <maven.compiler.source>11</maven.compiler.source>
+    <maven.compiler.target>11</maven.compiler.target>
+
 	</properties>
 	<dependencies>
 		<dependency>
